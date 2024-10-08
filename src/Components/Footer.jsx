@@ -1,31 +1,30 @@
-import React from 'react'
+import React from "react";
+import Socialmedia from "./Socialmedia";
 
 const Footer = () => {
   return (
-    
-      <div className='flex flex-col gap-12 md:flex-row md:justify-between'>
-      <ul className='flex gap-6 font-lato text-gray-400'>
+    <div className="flex flex-col gap-6  md:justify-between bg-gray-800 text-white py-6 ">
+      
+        <div className="container mx-auto flex flex-col md:flex-row justify-evenly items-center">
+          <Socialmedia />
+          
+          {/* Contact Information */}
+          <div className="text-center md:text-left">
+            <h1 className="text-lg text-yellow-600">Address :</h1>
+            <p >
+              Room no-7/49 Spring mil compound, <br /> G. D. Ambekar Naigaon, <br /> Dadar-East 400014
+            </p>
+           
+          </div>
+          <div className="text-center md:text-left text-lg">
+            <h1 className="text-yellow-600">Contact:</h1>
+            <p> 8080756377 / 8275794264</p>
+            <p className="text-yellow-600">© 2024 OMKAR RAWOOL, Inc. All rights reserved.</p>
+          </div>
+        </div>
+     
+    </div>
+  );
+};
 
-        <li>
-          <a href="#">Facebook</a>
-        </li>
-        <li>
-          <a href="#">Instagram</a>
-        </li>
-        <li>
-          <a href="#">Twitter</a>
-        </li>
-      </ul>
-        {/* <div className='flex gap-2'>
-          <img src="./assets/Help-Avatar.svg" alt="lg" />
-           <div >
-            <p className='font-playfair font-thin'>Have any Questions?</p>
-            <a href="#" className='font-lato font-medium'>Talk to a specialist!</a>
-           </div>
-        </div> */}
-      </div>
-    
-  )
-}
-
-export default Footer
+export default Footer;
