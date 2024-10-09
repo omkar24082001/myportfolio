@@ -8,15 +8,15 @@ const Resume = () => {
   {/* Display image, scaled to fit the container */}
   <div className="bg-gray-900 shadow-md rounded-lg w-full sm:w-3/4 md:w-2/3 lg:w-1/2">
     <img
-      src="public/assets/OMKAR_RAWOOL_MERN_DEV (4).png"
+      src="https://res.cloudinary.com/dpz5uzy8e/image/upload/v1728448386/OMKAR_RAWOOL_MERN_DEV_4_vxlvqi.png"
       alt="Omkar Rawool Resume"
       className="w-full h-auto object-contain rounded-md"
     />
 
     <div className="mt-6 flex justify-center">
       <a
-        href="public/assets/OMKAR_RAWOOL_MERN_DEV (4).png"
-        download="OMKAR_RAWOOL_MERN_DEV (4).png"
+        href="https://res.cloudinary.com/dpz5uzy8e/image/upload/v1728448386/OMKAR_RAWOOL_MERN_DEV_4_vxlvqi.png"
+        download="https://res.cloudinary.com/dpz5uzy8e/image/upload/v1728448386/OMKAR_RAWOOL_MERN_DEV_4_vxlvqi.png"
         className="bg-blue-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300"
       >
         Download Resume
