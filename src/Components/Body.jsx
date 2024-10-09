@@ -1,13 +1,14 @@
 import React from "react";
+import ContactForm from "./ContactFrom";
 
 const Body = () => {
   return (
-    <div className="lg:flex">
-      <div className="flex items-start justify-center lg:flex-1 lg:order-2 lg:justify-end lg:overflow-hidden">
+    <div className="lg:flex" id="home">
+      <div className="flex items-start justify-center lg:flex-1 lg:order-2 lg:justify-end lg:overflow-hidden relative">
         <img
-          src="./assets/Hero-Model.png"
+          src="https://res.cloudinary.com/dpz5uzy8e/image/upload/v1728445448/Hero-Model_qnivci.png"
           alt="hero"
-          className="absolute h-68 md:h-75 lg:h-[400px] top-[140px]"
+          className="w-full h-68 max-w-sm md:max-w-md  lg:max-w-lg  lg:object-contain object-cover md:h-50 lg:h-[400px]"
         />
       </div>
 
@@ -31,18 +32,9 @@ const Body = () => {
           my commitment to innovation."
         </p>
         <br />
-       
+
         <br />
-        <form action="" className="flex flex-col gap-4 md:flex-row">
-          <input
-            className="rounded-md px-4 py-3 placeholder:text-gray-400"
-            type="email"
-            placeholder="Enter e-mail address"
-          />
-          <button className="rounded-md px-4 py-3 bg-blue-400 hover:bg-blue-600 text-white">
-            Contact
-          </button>
-        </form>
+        <ContactForm />
       </div>
     </div>
   );

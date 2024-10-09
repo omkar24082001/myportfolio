@@ -2,15 +2,14 @@ import React from "react";
 
 const Project = () => {
   return (
-    <div>
+    <div id="project">
     <div className="container-fluid contenedor text-center h-full py-20 mt-[-60px]">
-      <h1 className="text-center text-yellow-600 text-2xl ">PROJECTS</h1>
+      <h1 className="text-4xl font-bold mb-6 text-yellow-600">PROJECTS</h1>
       <br />
-      <div className="container text-center flex flex-wrap justify-between items-start gap-4">
-        {/* Common size for all project divs */}
+      <div className="container text-center flex flex-wrap justify-center sm:justify-between items-start gap-4">
         {/* Project 1 */}
         <a href="https://omkar24082001.github.io/citiuscloud-services/" target="blank" className="no-underline">
-          <div className="container_foto relative bg-[rgba(57,62,93,0.7)] p-0 overflow-hidden w-[250px] h-[250px] m-1 transform transition-transform duration-300 ease-in-out hover:scale-95">
+          <div className="container_foto relative bg-[rgba(57,62,93,0.7)] p-0 overflow-hidden w-[300px] sm:w-[250px] h-[300px] sm:h-[250px] m-1 transform transition-transform duration-300 ease-in-out hover:scale-95">
             <div className="ver_mas absolute bg-[#FEB66C] w-full h-[70px] bottom-0 z-10 opacity-0 transform translate-y-[70px] transition-all duration-200 ease-in-out">
               <span className="lnr lnr-eye text-white text-[40px] mx-auto relative top-[13px]"></span>
             </div>
@@ -28,7 +27,7 @@ const Project = () => {
   
         {/* Project 2 */}
         <a href="https://omkar24082001.github.io/Amazon.com-clone/" target="blank" className="no-underline">
-          <div className="container_foto relative bg-[rgba(57,62,93,0.7)] p-0 overflow-hidden w-[250px] h-[250px] m-1 transform transition-transform duration-300 ease-in-out hover:scale-95">
+          <div className="container_foto relative bg-[rgba(57,62,93,0.7)] p-0 overflow-hidden w-[300px] sm:w-[250px] h-[300px] sm:h-[250px] m-1 transform transition-transform duration-300 ease-in-out hover:scale-95">
             <div className="ver_mas absolute bg-[#FEB66C] w-full h-[70px] bottom-0 z-10 opacity-0 transform translate-y-[70px] transition-all duration-200 ease-in-out">
               <span className="lnr lnr-eye text-white text-[40px] mx-auto relative top-[13px]"></span>
             </div>
@@ -46,7 +45,7 @@ const Project = () => {
   
         {/* Project 3 */}
         <a href="https://omkar24082001.github.io/signature_app/" target="blank" className="no-underline">
-          <div className="container_foto relative bg-[rgba(57,62,93,0.7)] p-0 overflow-hidden w-[250px] h-[250px] m-1 transform transition-transform duration-300 ease-in-out hover:scale-95">
+          <div className="container_foto relative bg-[rgba(57,62,93,0.7)] p-0 overflow-hidden w-[300px] sm:w-[250px] h-[300px] sm:h-[250px] m-1 transform transition-transform duration-300 ease-in-out hover:scale-95">
             <div className="ver_mas absolute bg-[#FEB66C] w-full h-[70px] bottom-0 z-10 opacity-0 transform translate-y-[70px] transition-all duration-200 ease-in-out">
               <span className="lnr lnr-eye text-white text-[40px] mx-auto relative top-[13px]"></span>
             </div>
@@ -64,7 +63,7 @@ const Project = () => {
   
         {/* Project 4 */}
         <a href="https://omkar24082001.github.io/blog-page-bootstrap/" target="blank" className="no-underline">
-          <div className="container_foto relative bg-[rgba(57,62,93,0.7)] p-0 overflow-hidden w-[250px] h-[250px] m-1 transform transition-transform duration-300 ease-in-out hover:scale-95">
+          <div className="container_foto relative bg-[rgba(57,62,93,0.7)] p-0 overflow-hidden w-[300px] sm:w-[250px] h-[300px] sm:h-[250px] m-1 transform transition-transform duration-300 ease-in-out hover:scale-95">
             <div className="ver_mas absolute bg-[#FEB66C] w-full h-[70px] bottom-0 z-10 opacity-0 transform translate-y-[70px] transition-all duration-200 ease-in-out">
               <span className="lnr lnr-eye text-white text-[40px] mx-auto relative top-[13px]"></span>
             </div>
@@ -82,6 +81,7 @@ const Project = () => {
       </div>
     </div>
   </div>
+  
   
   
 
